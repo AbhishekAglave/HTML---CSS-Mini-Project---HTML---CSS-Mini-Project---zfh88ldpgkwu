@@ -1,1 +1,127 @@
-
+*{
+    color: #183153;
+    font-family: cursive;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(118, 193, 255);
+}
+header{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr 280px;
+    height: 1500px;
+    width: 1200px;
+    min-width: 320px;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+.navbar ul{
+    list-style: none;
+    font-size: 20px;
+}
+.navbar ul li{
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-container{
+    display: grid;
+    grid-template-columns: 30px 150px 1fr 180px 30px 30px 30px 30px;
+    column-gap: 20px;
+    padding-right: 22px;
+    justify-content: flex-end;
+}
+.search-field{
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search{
+    height: 27px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: flex-end;
+}
+.fa-magnifying-glass{
+    font-size: 18px;
+    padding: 5px;
+    opacity: 50%;
+}
+main{
+    display: flex;
+    background-color: rgb(191, 226, 255);
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.items{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+@media screen and (max-width: 1024px) {
+    .content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 720px) {
+    .content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .items{
+        width: 220px;
+        height: 300px;
+    }
+    .container{
+        margin: 0;
+    }
+}
+footer{
+    background-color: #183153;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer-container div ul li{
+    color: rgb(191, 226, 255);
+}
+.footer-container div h4 {
+    color: rgb(191, 226, 255);
+}
+.footer-container{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-items ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.footer-items{
+    margin: 15px;
+}
