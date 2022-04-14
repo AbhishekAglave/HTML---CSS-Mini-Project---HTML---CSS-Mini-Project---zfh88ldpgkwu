@@ -19,7 +19,7 @@ header{
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px 1fr 280px;
+    grid-template-rows: 60px 1fr 250px;
     height: 1500px;
     width: 1200px;
     min-width: 320px;
@@ -32,6 +32,9 @@ header{
 }
 .navbar ul li{
     cursor: pointer;
+    text-decoration: none;
+}
+.uniqueartsy a{
     text-decoration: none;
 }
 .nav-container{
@@ -50,6 +53,7 @@ header{
     background-color: transparent;
 }
 .search{
+    margin-top: -2px;
     height: 27px;
     display: flex;
     padding-left: 5px;
@@ -88,6 +92,9 @@ main{
     .content{
         grid-template-columns: repeat(4, 1fr);
     }
+    .items{
+        height: 300px;
+    }
 }
 @media screen and (max-width: 720px) {
     .content{
@@ -109,7 +116,11 @@ footer{
 .footer-container div ul li{
     color: rgb(191, 226, 255);
 }
-.footer-container div h4 {
+.footer-container div ul li a{
+    text-decoration: none;
+    color: rgb(191, 226, 255);
+}
+.footer-container div h3{
     color: rgb(191, 226, 255);
 }
 .footer-container{
