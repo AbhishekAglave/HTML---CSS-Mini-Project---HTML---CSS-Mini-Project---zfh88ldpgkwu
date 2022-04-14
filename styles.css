@@ -109,10 +109,10 @@ main{
         height: 30px;
     }
     .nav-container{
-        column-gap: 35px;
+        column-gap: 30px;
     }
     .navbar ul{
-        font-size: 30px;
+        font-size: 32px;
     }
     .content{
         grid-template-columns: repeat(3, 1fr);
