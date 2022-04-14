@@ -96,12 +96,12 @@ main{
         height: 300px;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 828px) {
     .content{
         grid-template-columns: repeat(3, 1fr);
     }
     .items{
-        width: 220px;
+        width: 250px;
         height: 300px;
     }
     .container{
