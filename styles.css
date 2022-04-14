@@ -102,6 +102,7 @@ main{
     }
     .search{
         margin-top: 0;
+        height: 30px;
     }
     .nav-container{
         column-gap: 30px;
