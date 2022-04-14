@@ -97,6 +97,18 @@ main{
     }
 }
 @media screen and (max-width: 828px) {
+    .container{
+        grid-template-rows: 80px 1fr 250px;
+    }
+    .search{
+        margin-top: 0;
+    }
+    .nav-container{
+        column-gap: 25px;
+    }
+    .navbar ul{
+        font-size: 25px;
+    }
     .content{
         grid-template-columns: repeat(3, 1fr);
     }
