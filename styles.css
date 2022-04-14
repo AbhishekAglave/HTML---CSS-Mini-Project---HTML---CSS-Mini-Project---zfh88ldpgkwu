@@ -109,7 +109,7 @@ main{
         height: 30px;
     }
     .nav-container{
-        column-gap: 30px;
+        column-gap: 35px;
     }
     .navbar ul{
         font-size: 30px;
