@@ -97,6 +97,10 @@ main{
     }
 }
 @media screen and (max-width: 828px) {
+    .nav-container{
+        grid-template-columns: 30px 150px 0px 200px 30px 30px 30px 30px;
+    } 
+
     .container{
         grid-template-rows: 100px 1fr 250px;
     }
