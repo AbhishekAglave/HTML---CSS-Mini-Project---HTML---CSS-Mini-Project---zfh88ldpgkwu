@@ -95,6 +95,9 @@ main{
     width: 100%;
     border-radius: 8px;
 }
+.item-body button.upload-img{
+    height: 147%;
+}
 .item-body{
     display: grid;
     grid-template-rows: 248px;
@@ -124,7 +127,6 @@ main{
         grid-template-columns: 30px 150px 0px 200px 30px 30px 30px 30px;
         padding-right: 42px;
     } 
-
     .container{
         grid-template-rows: 100px 1fr 250px;
     }
@@ -145,6 +147,9 @@ main{
         width: 248px;
         height: 320px;
     }
+    .item-body button.upload-img{
+        height: 147%;
+    }
     .container{
         margin: 0;
     }
@@ -157,6 +162,7 @@ footer{
 .line{
     width: 100%;
     height: 1px;
+    margin-top: 30px;
     background-color: rgb(191, 226, 255);
 }
 .footer-container div ul li{
