@@ -56,9 +56,6 @@ header{
     outline: none;
     background-color: transparent;
 }
-.search-icon{
-    display: none;
-}
 .search{
     height: 27px;
     display: flex;
@@ -140,16 +137,21 @@ main{
     .container{
         grid-template-rows: 100px 1fr 250px;
     }
+    .search-field{
+        margin-left: 10px;
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
     .search{
-        /* display: none; */
         height: 40px;
     }
-    .search-icon{
-        display: none;
-    }
     .fa-magnifying-glass{
-        font-size: 32px;
-        opacity: 100%;
+        font-size: 30px;
+        padding: 5px;
+        opacity: 50%;
     }
     .nav-container{
         column-gap: 30px;
