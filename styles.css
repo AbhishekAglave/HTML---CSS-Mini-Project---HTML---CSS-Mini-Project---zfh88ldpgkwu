@@ -116,7 +116,8 @@ main{
 }
 .item-body button{
     display: grid;
-    background-color: skyblue;
+    background-color: #183153;
+    color: rgb(191, 226, 255);
     margin-top: 2.5px;
     height: 30px;
     border: none;
