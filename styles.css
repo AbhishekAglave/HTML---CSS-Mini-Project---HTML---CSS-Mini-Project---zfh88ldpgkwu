@@ -43,7 +43,7 @@ header{
 }
 .nav-container{
     display: grid;
-    grid-template-columns: 30px 150px 1fr 180px 30px 30px 30px 30px;
+    grid-template-columns: 30px 150px 1fr 300px 30px 30px 30px 30px;
     column-gap: 20px;
     padding-right: 22px;
     justify-content: flex-end;
@@ -70,6 +70,11 @@ header{
 }
 .search:hover{
     border: 1px solid #183153;
+}
+.search button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 .fa-magnifying-glass{
     font-size: 18px;
@@ -148,9 +153,14 @@ main{
     .search{
         height: 40px;
     }
+    .search button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
     .fa-magnifying-glass{
         font-size: 25px;
-        padding: 10px;
+        padding: 9px;
         opacity: 50%;
     }
     .nav-container{
