@@ -71,7 +71,7 @@ header{
     display: flex;
     justify-content: flex-end;
 }
-.search:active{
+.search:hover{
     border: 1px solid #183153;
 }
 .fa-magnifying-glass{
