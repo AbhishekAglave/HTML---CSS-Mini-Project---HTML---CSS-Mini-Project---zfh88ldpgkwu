@@ -16,7 +16,16 @@ header{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
+}
+.side-menu{
+    display: none;
+    position: absolute;
+    top: 80px;
+    width: 300px;
+    height: inherit;
+    border-bottom-right-radius: 10px;
+    background-color: white;
 }
 .container{
     margin: 10px;
