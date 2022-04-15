@@ -56,6 +56,9 @@ header{
     outline: none;
     background-color: transparent;
 }
+.search-icon{
+    display: none;
+}
 .search{
     margin-top: -4px;
     height: 27px;
@@ -129,15 +132,21 @@ main{
 }
 @media screen and (max-width: 828px) {
     .nav-container{
-        grid-template-columns: 30px 150px 0px 200px 30px 30px 30px 30px;
+        grid-template-columns: 30px 150px 1fr 30px 30px 30px 30px 30px;
         padding-right: 40px;
     } 
     .container{
         grid-template-rows: 100px 1fr 250px;
     }
     .search{
-        margin-top: 0;
-        height: 30px;
+        display: none;
+    }
+    .search-icon{
+        display: block;
+    }
+    .fa-magnifying-glass{
+        font-size: 32px;
+        opacity: 100%;
     }
     .nav-container{
         column-gap: 30px;
