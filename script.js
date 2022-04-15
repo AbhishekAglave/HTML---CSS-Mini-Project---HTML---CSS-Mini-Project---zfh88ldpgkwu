@@ -1,11 +1,6 @@
-function ExpandMenu(){
-    document.getElementById("side-menu").style.display = "block";
+function ExpandOrCollapseMenu(){
+    document.getElementById("side-menu").classList.toggle("menu-expand-collapse");
+    document.getElementById("menubutton").classList.toggle("fa-bars-staggered");
 }
-
-document.getElementById("menubutton").addEventListener("click", ExpandMenu);
-
-function CollapseMenu(){
-    document.getElementById("side-menu").style.display = "none";
-}
-
-document.getElementById("side-menu").addEventListener("click", CollapseMenu);
+document.getElementById("menubutton").addEventListener("click", ExpandOrCollapseMenu);
+document.getElementById("main").addEventListener("click", ExpandOrCollapseMenu);
