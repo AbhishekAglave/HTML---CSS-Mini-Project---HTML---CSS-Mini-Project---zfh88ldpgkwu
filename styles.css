@@ -4,7 +4,7 @@
         url('MierB-Regular.woff2') format('woff2'),
         url('MierB-Regular.woff') format('woff'),
         url('MierB-Regular.ttf') format('truetype');
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 *{
