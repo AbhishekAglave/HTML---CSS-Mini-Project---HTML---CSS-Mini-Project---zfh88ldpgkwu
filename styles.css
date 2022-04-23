@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap');
-
+@font-face {
+    font-family: 'Mier';
+    src: local('Mier B Demi Bold'), local('Mier-B-Demi-Bold'),
+        url('MierB-DemiBold.woff2') format('woff2'),
+        url('MierB-DemiBold.woff') format('woff'),
+        url('MierB-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 *{
     color: #183153;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Mier';
     font-weight: 400;
 }
 body{
