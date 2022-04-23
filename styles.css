@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Mier';
-    src: local('Mier B Demi Bold'), local('Mier-B-Demi-Bold'),
-        url('MierB-DemiBold.woff2') format('woff2'),
-        url('MierB-DemiBold.woff') format('woff'),
-        url('MierB-DemiBold.ttf') format('truetype');
-    font-weight: 600;
+    src: local('Mier B Regular'), local('Mier-B-Regular'),
+        url('MierB-Regular.woff2') format('woff2'),
+        url('MierB-Regular.woff') format('woff'),
+        url('MierB-Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
 }
 *{
