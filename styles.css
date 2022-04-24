@@ -195,8 +195,8 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
     .items{
-        /* width: 310px;
-        height: 350px; */
+        width: 240px;
+        height: 320px;
     }
     .item-body button.upload-img{
         height: 147%;
