@@ -192,11 +192,11 @@ main{
         font-size: 32px;
     }
     .content{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .items{
-        width: 248px;
-        height: 320px;
+        /* width: 310px;
+        height: 350px; */
     }
     .item-body button.upload-img{
         height: 147%;
